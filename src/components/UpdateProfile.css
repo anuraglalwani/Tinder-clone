@@ -1,0 +1,60 @@
+.updateProfile {
+ 
+}
+
+.header {
+  display: flex;
+  
+  background-color: #ff5864;
+}
+.header h1 {
+  padding-right: 40px;
+}
+
+.formBody {
+  align-items: center;
+  
+  background-color: #ff5864;
+  margin-top: 3%;
+}
+.block {
+  
+  align-items: center;
+  margin-left: 5%;
+}
+.block label {
+  font-size: 25px;
+  color: white;
+}
+.block input {
+  margin-left: 5%;
+  height: 2rem;
+}
+.custombutton {
+    margin-left: 5% !important;
+    margin-top: 2%;
+}
+.name{
+    margin-right: 2.5%;
+}
+.age{
+    margin-right: 4%;
+}
+@media only screen and (max-width: 600px) {
+    .custombutton {
+        margin-left: 5% !important;
+        margin-top: 4%;
+    }
+    .name{
+        margin-right: 13%;
+    }
+    .age{
+        margin-right: 19%;
+    }
+    .language{
+        margin-right: 3% ;
+    }
+   .formBody{
+       margin-top: 10%;
+   }
+}

@@ -1,0 +1,31 @@
+.profileHeader{
+background-color:#FD297B;
+display: flex;
+align-items: center;
+justify-content: space-between;
+color: white;
+flex: 1;
+}
+.profileHeader h1{
+    margin-left: 30;
+    
+}
+.details{
+    align-items: center;
+    margin-left:30 !important; 
+}
+.detailPart{
+    padding-left: 30px;
+    background-color:#FD297B;
+    color:white;
+    padding-bottom: 20px;
+}
+.updateLink{
+    height: 50;
+    width: 50;
+    padding-left: 40;
+    margin: 40;
+    margin-top: 70;
+    
+}
+
