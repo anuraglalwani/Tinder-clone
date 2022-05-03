@@ -32,7 +32,7 @@ export default function UpdateProfile() {
             <ArrowBackIosIcon fontSize="large" className="header_icon" />
           </IconButton>
         </Link>
-        <h1>Update Profile</h1>
+        <h1 className="updateProfile">Update Profile</h1>
       </div>
 
       <div className="formBody">
@@ -69,7 +69,7 @@ export default function UpdateProfile() {
           </div>
 
           <div className="custombutton">
-            <button type="button" onClick={HandleSubmit} class="btn btn-light">
+            <button type="button" onClick={HandleSubmit} className="updateBtn">
               Update
             </button>
           </div>

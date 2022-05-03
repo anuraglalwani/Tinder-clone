@@ -61,9 +61,9 @@ export default function ProfileScreen (){
             })}
 
             <div >
-              {/* <Link to="/update/"> */}
+             
               <Link to ={"/update/"+reqId}>
-              <button className="updateLink ">Update Profile</button>
+              <button className="updateLink">Update Profile</button>
               </Link>
             </div>
           
